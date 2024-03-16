@@ -1,13 +1,255 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+
+:root {
+  --bg-color: #10100e; 
+  --text-color: #ffffe3; 
+  --border-color: #232322;
+  --icon-color: #7D0A0A;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Define scrollbar track */
+::-webkit-scrollbar {
+  width: 6px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--border-color);
+  border-radius: 5px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--border-color); 
+}
+
+/* Define scrollbar thumb when hovering over it */
+::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+}
+
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "DM Sans", sans-serif;
+  cursor: url('assets/cursor.png'), auto;
+}
+
+.navbardiv{
+  padding: 3% 0%;
+  background-color: var(--bg-color);
+}
+
+.navbardiv .navbar-link {
+  transition: color 0.3s;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0% 1%;
+  color: var(--text-color);
+}
+
+.navbar-link:hover {
+  text-shadow: 0 0 3px var(--text-color), 0 0 6px var(--text-color);
+}
+
+
+.taglinediv {
+  padding: 6% 10%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  opacity: 1;
+  background-image:  linear-gradient(var(--border-color) 2.3000000000000003px, transparent 2.3000000000000003px), linear-gradient(to right, var(--border-color) 2.3000000000000003px, var(--bg-color) 2.3000000000000003px);
+  background-size: 45px 45px;
+}
+
+.taglinediv h1 {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.btn1 {
+margin: 1% 1%;
+font-weight: 700;
+background-color: var(--bg-color);
+color: var(--text-color);
+border: 1px solid var(--text-color);
+border-radius: 25px;
+transition: color 0.3s;
+}
+
+.btn1:hover {
+  color: var(--bg-color);
+  font-weight: 700;
+  background-color: var(--text-color);
+  border: 1px solid var(--text-color);
+  border-radius: 25px;
+  }
+
+  .btn2 {
+    transition: color 0.3s;
+    margin: 1% 1%;
+    font-weight: 700;
+    color: var(--bg-color);
+    background-color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 25px;
+    }
+
+  .btn2:hover {
+    
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 25px;
+    }
+    
+    .projectsdiv {
+      padding: 3% 0%;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+    
+    .projectsdiv h1 {
+      font-size: 2.3rem;
+      font-weight: 800;
+    }
+    
+    .projectcard {
+      border: 1px solid var(--border-color);
+      margin: 30px 15%;
+      padding: 3% 3%;
+      background-color: #0d0d0c;
+      color: var(--text-color);
+    }
+
+    .project-img {
+      margin: 2% 0%;
+      border-radius: 10px;
+    }
+
+    .testimonialsdiv {
+      padding: 3% 14.5%;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+    
+    .testimonialsdiv h1 {
+      font-size: 2.3rem;
+      font-weight: 800;
+    }
+
+    .testimonial-card {
+      margin: 3% 0%;
+      border: 1px solid var(--border-color);
+      background-color: #0d0d0c;
+      color: var(--text-color);
+      border-radius: 10px;
+    }
+    
+    .avatar-img {
+      width: 55px; /* Adjust as needed */
+      height: 55px; /* Adjust as needed */
+      border-radius: 50%;
+    }
+
+    .aboutdiv {
+      padding: 3% 15%;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+    
+    .aboutdiv h1 {
+      font-size: 2.3rem;
+      font-weight: 800;
+    }
+    
+    .about-img {
+      border-radius: 20px;
+    }
+
+    .aboutdivcol {
+      margin: 1% 0%;
+    }
+
+    .connectdiv {
+      padding: 3% 15%;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+
+      padding-bottom: 4%;
+    }
+    
+    .connectdiv h1 {
+      font-size: 2.3rem;
+      font-weight: 800;
+    }
+
+    .connect-card {
+      margin: 3% 2%;
+      border: 1px solid var(--border-color);
+      background-color: #0d0d0c;
+      color: var(--text-color);
+      border-radius: 10px;
+      padding: 3% 3%;
+    }
+
+    .iconf {
+      color: var(--text-color);
+      transition: color 0.3s;
+    }
+
+    .iconf:hover {
+      color: var(--text-color); /* Change color on hover */
+      text-shadow: 0 0 3px var(--text-color), 0 0 6px var(--text-color); /* Add glow effect */
+    }
+
+    .iconred {
+      color: var(--icon-color);
+    }
+    
+    .Anshul-link {
+      text-decoration: none;
+      color: var(--text-color);
+      font-weight: 600;
+    }
+
+    .Anshul-link:hover {
+      text-shadow: 0 0 3px var(--text-color), 0 0 6px var(--text-color);
+    }
+
+    .skillsdiv {
+      padding: 3% 15%;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    .skillsdiv h1 {
+      font-size: 2.3rem;
+      font-weight: 800;
+    }
+
+    .news-text marquee {
+      font-size: 3rem;
+      opacity: 0.8;
+    }
+
+    /* .news-text {
+      margin: 2% 0%;
+    } */
+    
+    /* BlurOverlay.css */
+.blur-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.001); /* Reduced the opacity to lowest */
+  backdrop-filter: blur(0.2px); /* Reduced to 0.2 */
+  z-index: 9999; /* Ensure the overlay appears on top of other content */
+  pointer-events: none;
 }
