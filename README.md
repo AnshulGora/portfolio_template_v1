@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Portfolio Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Portfolio Template! This template is crafted to elegantly showcase your professional work, skills, and testimonials. Below are the steps to personalize your website:
 
-## Available Scripts
+## Main Tagline
 
-In the project directory, you can run:
+Replace this section with a catchy tagline that encapsulates your professional identity or mission statement.
 
-### `npm start`
+## Contact
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Provide a link to your preferred method of contact, such as your LinkedIn profile or email address.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## CV (Curriculum Vitae)
 
-### `npm test`
+Link your CV hosted on platforms like Google Drive or Dropbox for easy access.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Projects
 
-### `npm run build`
+List your projects with the following details:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Project Name:** Name of the project.
+- **Project Details:** Brief description (29 words maximum) of the project.
+- **Technologies Used:** List of technologies/frameworks used.
+- **Project Link:** Link to the live project or its repository.
+- **Project Screenshot:** Image showcasing the project (include project name and a headline of 15 words or less).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Testimonials
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Gather testimonials from clients or colleagues with the following details:
 
-### `npm run eject`
+- **Name:** Name of the person providing the testimonial.
+- **Company or Domain:** Affiliation of the person.
+- **Avatar Image:** Image representing the person.
+- **Review:** Brief testimonial (8 to 10 words).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## About
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Write a paragraph describing yourself, your expertise, and career goals. Include an image of yourself, list your skills/services, and provide links to your professional networking profiles.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+All the details mentioned above are to be updated in the `data.json` file located in `src -> data -> data.json`. Additionally, add the reviews in the `reviews.json` file located in `src -> data -> reviews.json`. Modify these files accordingly to accurately reflect your personal information, projects, and testimonials. If you need any assistance, feel free to reach out. Happy showcasing!

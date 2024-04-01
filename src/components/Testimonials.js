@@ -1,5 +1,6 @@
 import React from "react";
 import ReviewCard from "./ReviewCard";
+import testimonialsData from "../data/review.json";
 
 export default function Testimonials() {
   return (
@@ -9,32 +10,16 @@ export default function Testimonials() {
       </div>
 
       <div className="row">
-        <div className="col-md-4 col-sm-4">
-          <ReviewCard
-            avatar={require("../assets/avatar-1.jpg")}
-            name="Aryan Mishra"
-            company="Web Developer"
-            review="Got Portfolio designed by Anshul, Results are Outstanding. Professional and always delivers on time."
-          ></ReviewCard>
-        </div>
-
-        <div className="col-md-4 col-sm-4">
-          <ReviewCard
-            avatar={require("../assets/avatar-2.jpg")}
-            name="Tejasva Sharma"
-            company="Educational Youtuber"
-            review="He is a great designer and a great person to work with. Professional and always delivers on time."
-          ></ReviewCard>
-        </div>
-
-        <div className="col-md-4 col-sm-4">
-          <ReviewCard
-            avatar={require("../assets/avatar-3.jpg")}
-            name="Arihant Pokharna"
-            company="Data Analyst"
-            review="Anshul is a great communicator and an even better designer. Highly recommended!"
-          ></ReviewCard>
-        </div>
+        {testimonialsData.map((testimonial, index) => (
+          <div className="col-md-4 col-sm-4" key={index}>
+            <ReviewCard
+              avatar={require(`../assets/${testimonial.avatar}`)}
+              name={testimonial.name}
+              company={testimonial.company}
+              review={testimonial.review}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );
