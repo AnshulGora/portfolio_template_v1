@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import projectsData from "../data/projects.json";
 
 export default function Projects() {
   return (
@@ -8,34 +9,16 @@ export default function Projects() {
         <h1>My work :)</h1>
       </div>
 
-      <ProjectCard
-        title="Plutospace"
-        content="With interactive content, real-time feedback,
-        and collaborative tools, PlutoSpace empowers learners to thrive in a
-      dynamic and engaging environment tailored to their individual needs
-      and preferences."
-        url="www.google.com"
-      ></ProjectCard>
-
-      <ProjectCard
-        title="Fitness Junction"
-        content="Goal of the youth to get fit and healthy, With interactive content, real-time feedback, and collaborative tools, It empowers learners to thrive in a dynamic and engaging environment tailored to their individual needs."
-        url="www.google.com"
-      ></ProjectCard>
-
-      <ProjectCard
-        title="Amazon Clone"
-        content="this is a clone of Amazon, With Cloning, real-time feedback,
-        and collaborative tools, PlutoSpace empowers learners to thrive in a
-        dynamic and engaging environment tailored to their individual needs."
-        url="www.google.com"
-      ></ProjectCard>
-
-      <ProjectCard
-        title="Chat Application"
-        content="With interactive content, real-time feedback, and collaborative tools, Application empowers learners to thrive in a dynamic and engaging environment tailored to their individual needs and preferences."
-        url="www.google.com"
-      ></ProjectCard>
+      {projectsData.map((project, index) => (
+        <ProjectCard
+          key={index}
+          title={project.title}
+          content={project.content}
+          url={project.url}
+          // img={require(project.img)}
+          tech={project.tech}
+        />
+      ))}
     </div>
   );
 }

@@ -20,7 +20,7 @@ export default function ReviewCard(props) {
             </div>
           </div>
         </div>
-        <p className="card-text py-3">{props.review}</p>
+        <p className="card-text py-3">&ldquo;{props.review}&ldquo;</p>
       </div>
     </div>
   );

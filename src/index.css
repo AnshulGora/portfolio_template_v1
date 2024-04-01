@@ -57,7 +57,8 @@ body {
 
 
 .taglinediv {
-  padding: 6% 10%;
+  position: relative;
+  padding: 6% 9%;
   background-color: var(--bg-color);
   color: var(--text-color);
 
@@ -69,6 +70,26 @@ body {
 .taglinediv h1 {
   font-size: 6rem;
   font-weight: 900;
+
+  background-image: linear-gradient(90deg, rgba(255,255,227,1) 0%, rgba(250,250,233,1) 65%, rgba(241,241,208,1) 100%);
+      -webkit-background-clip: text; /* For Safari/Chrome */
+      background-clip: text;
+      color: transparent; /* Hide the original text color */
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(131, 58, 180, 0.6) 0%,
+    rgba(253, 29, 29, 0.6) 50%,
+    rgba(252, 176, 69, 0.6) 100%
+  ); /* Adjust gradient colors and direction as needed */
+  z-index: -1; /* Ensure the overlay is behind the content */
 }
 
 .btn1 {
@@ -108,7 +129,7 @@ transition: color 0.3s;
     }
     
     .projectsdiv {
-      padding: 3% 0%;
+      padding: 3% 12%;
       background-color: var(--bg-color);
       color: var(--text-color);
     }
@@ -120,11 +141,19 @@ transition: color 0.3s;
     
     .projectcard {
       border: 1px solid var(--border-color);
-      margin: 30px 15%;
+      margin: 30px 0%;
       padding: 3% 3%;
       background-color: #0d0d0c;
       color: var(--text-color);
     }
+
+    .projects-tech {
+      background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 45%, rgba(252,176,69,1) 73%);
+      -webkit-background-clip: text; /* For Safari/Chrome */
+      background-clip: text;
+      color: transparent; /* Hide the original text color */
+    }
+    
 
     .project-img {
       margin: 2% 0%;
@@ -132,7 +161,7 @@ transition: color 0.3s;
     }
 
     .testimonialsdiv {
-      padding: 3% 14.5%;
+      padding: 3% 12%;
       background-color: var(--bg-color);
       color: var(--text-color);
     }
@@ -157,7 +186,7 @@ transition: color 0.3s;
     }
 
     .aboutdiv {
-      padding: 3% 15%;
+      padding: 3% 12%;
       background-color: var(--bg-color);
       color: var(--text-color);
     }
@@ -168,7 +197,10 @@ transition: color 0.3s;
     }
     
     .about-img {
+      margin: 1% 0%;
       border-radius: 20px;
+      /* height: 80%; */
+      width: 90%;
     }
 
     .aboutdivcol {
@@ -176,7 +208,7 @@ transition: color 0.3s;
     }
 
     .connectdiv {
-      padding: 3% 15%;
+      padding: 3% 12%;
       background-color: var(--bg-color);
       color: var(--text-color);
 
@@ -204,7 +236,7 @@ transition: color 0.3s;
 
     .iconf:hover {
       color: var(--text-color); /* Change color on hover */
-      text-shadow: 0 0 3px var(--text-color), 0 0 6px var(--text-color); /* Add glow effect */
+      text-shadow: 0 0 2px var(--text-color), 0 0 4px var(--text-color); /* Add glow effect */
     }
 
     .iconred {
@@ -222,7 +254,7 @@ transition: color 0.3s;
     }
 
     .skillsdiv {
-      padding: 3% 15%;
+      padding: 3% 12%;
       background-color: var(--bg-color);
       color: var(--text-color);
     }

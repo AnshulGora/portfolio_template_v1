@@ -1,0 +1,27 @@
+[
+    {
+      "title": "The DailyDose",
+      "content": "The DailyDose is a news website that provides the latest news and updates from around the world. It is a one-stop destination for all your news needs.",
+      "url": "https://thedailydose.netlify.app/",
+      "tech": "#react #newsapi #bootstrap"
+    },
+    {
+      "title": "Fitness Junction",
+      "content": "Fitness Junction is Comprehensive library of exercises catering to all fitness enthusiasts. It can be used by anyone who wants to get fit and healthy.",
+      "url": "https://fitnessjunction.netlify.app/",
+      "tech": "#react #nodejs #firebase"
+    },
+    {
+      "title": "Trippy Travels",
+      "content": "Trippy Travels is a travel website that provides the best travel destinations and travel packages. Most of the travel packages are customizable and can be tailored to the needs of the customer.",
+      "url": "https://trippytravels.netlify.app/",
+      "tech": "#react #UI/UX"
+    },
+    {
+      "title": "Movies Hub",
+      "content": "Movies Hub is a movie info website that provides the latest movies and TV shows related information. It is a one-stop destination for all your movie needs.",
+      "url": "https://movieshubtime.netlify.app/",
+      "tech": "#react #moviesapi #contextapi"
+    }
+  ]
+  

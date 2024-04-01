@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <div className="container-fluid text-center navbardiv">
+    <div className="container-fluid text-center navbardiv sticky-top">
       <Link
         className="navbar-link"
         activeClass="active"

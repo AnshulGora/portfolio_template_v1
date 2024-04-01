@@ -1,0 +1,30 @@
+Main tagline below name
+
+Contact link - could be a specific profile link
+
+
+CV link from drive
+
+
+Project {
+Project Name, 
+Project Details -  29 words max,
+Technologies Used,
+Project link,
+
+for image - { project name, project headline 15 words, project screenshot, example on website }
+}
+
+Testimonials {
+name,
+company or domain,
+avatar image
+review - 8 to 10 words
+}
+
+About part {
+Paragraph,
+Image,
+Skills or Services that you could offer
+Profile links
+}
