@@ -17,8 +17,8 @@ export default function Skills() {
               &nbsp; TailwindCSS &nbsp;&nbsp;&nbsp; Python &nbsp;&nbsp;&nbsp;
               C++ &nbsp;&nbsp;&nbsp; Java &nbsp;&nbsp;&nbsp; Github
               &nbsp;&nbsp;&nbsp; OOPS */}
-              Website Development &nbsp; &nbsp; &nbsp; Designing(UI/UX, Landing
-              Page, Porduct Page, Portfolio Website) &nbsp; &nbsp; &nbsp; SEO
+              Website Development &nbsp; &nbsp; &nbsp; Designing (UI/UX, Landing
+              Page, Product Page, Portfolio Website) &nbsp; &nbsp; &nbsp; SEO
               &nbsp; &nbsp; &nbsp; Digital Marketing &nbsp; &nbsp; &nbsp; Social
               Media Marketing &nbsp; &nbsp; &nbsp; Content Writing &nbsp; &nbsp;
               &nbsp; Blogging &nbsp; &nbsp; &nbsp; Email Marketing &nbsp; &nbsp;

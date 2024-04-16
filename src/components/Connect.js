@@ -49,7 +49,9 @@ export default function Connect() {
       <Fade direction="down" delay={2}>
         <div className="text-center">
           <h6 className="pt-4">
-            Made with <i class="fa-solid fa-heart iconred"></i> by
+            {/* <span className="promo-box"> */}
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Made with{" "}
+            <i class="fa-solid fa-heart iconred"></i> by
             <a
               href="https://anshulwork.netlify.app/"
               className="Anshul-link"
@@ -58,6 +60,7 @@ export default function Connect() {
               {" "}
               Anshul Gora
             </a>
+            {/* </span> */}
           </h6>
         </div>
       </Fade>
