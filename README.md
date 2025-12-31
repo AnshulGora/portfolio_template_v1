@@ -1,42 +1,113 @@
-# Portfolio Template
+# 🚀 Professional Portfolio Template
 
-Welcome to the Portfolio Template! This template is crafted to elegantly showcase your professional work, skills, and testimonials. Below are the steps to personalize your website:
+A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a "plug-and-play" solution to showcase their work, skills, and testimonials.
 
-## Main Tagline
+## ✨ Features
 
-Replace this section with a catchy tagline that encapsulates your professional identity or mission statement.
+- **Responsive Design**: Looks great on all devices
+- **Dark Theme**: Modern and eye-catching
+- **Easy Customization**: Edit a single JSON file to personalize
+- **Fast Performance**: Optimized for speed
+- **React Powered**: Built with React for dynamic content
 
-## Contact
-
-Provide a link to your preferred method of contact, such as your LinkedIn profile or email address.
-
-## CV (Curriculum Vitae)
-
-Link your CV hosted on platforms like Google Drive or Dropbox for easy access.
-
-## Projects
-
-List your projects with the following details:
-
-- **Project Name:** Name of the project.
-- **Project Details:** Brief description (29 words maximum) of the project.
-- **Technologies Used:** List of technologies/frameworks used.
-- **Project Link:** Link to the live project or its repository.
-- **Project Screenshot:** Image showcasing the project (include project name and a headline of 15 words or less).
-
-## Testimonials
-
-Gather testimonials from clients or colleagues with the following details:
-
-- **Name:** Name of the person providing the testimonial.
-- **Company or Domain:** Affiliation of the person.
-- **Avatar Image:** Image representing the person.
-- **Review:** Brief testimonial (8 to 10 words).
-
-## About
-
-Write a paragraph describing yourself, your expertise, and career goals. Include an image of yourself, list your skills/services, and provide links to your professional networking profiles.
+**Live Demo:** [anshuldev.vercel.app](https://anshuldev.vercel.app)
 
 ---
 
-All the details mentioned above are to be updated in the `data.json` file located in `src -> data -> data.json`. Additionally, add the reviews in the `reviews.json` file located in `src -> data -> reviews.json`. Modify these files accordingly to accurately reflect your personal information, projects, and testimonials. If you need any assistance, feel free to reach out. Happy showcasing!
+## 🛠️ Quick Start
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone <your-repo-url>
+   cd portfolio_template_v1
+   ```
+
+2. **Install Dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run Locally:**
+   ```bash
+   npm start
+   ```
+
+---
+
+## 🎨 Customization Guide
+
+Follow these steps to personalize your website. All major content changes are handled through a single JSON file.
+
+### 1. Meta Data & Favicon
+
+Before editing the content, update the identity of your site in the browser:
+
+- **Website Title**: Open `public/index.html` and update the `<title>` tag to your name.
+- **Favicon**:
+  1. Generate a custom icon at [favicon.io](https://favicon.io).
+  2. Download and replace the existing files in the `public/` folder with your new icons.
+
+### 2. The "Brain" (content.json)
+
+All text and links are managed in `src/data/content.json`. Modify this file to reflect your information:
+
+#### Profile
+
+- **Name & Tagline**: Your professional identity and a catchy mission statement.
+- **About Me**: A detailed paragraph describing your expertise and goals.
+- **Contact & CV**: Your email, social links, and a link to your CV (hosted on Drive/Dropbox).
+
+#### Projects
+
+Add your work details here.
+
+- **Description**: Keep project details to a 29-word maximum for the best layout.
+- **Tech**: List technologies used (e.g., `#react #nodejs`).
+
+#### Testimonials
+
+- **Review**: Aim for 8 to 10 words per testimonial.
+- **Company/Domain**: The affiliation of the person providing the review.
+
+### 3. Assets (Images)
+
+Images are stored in `src/assets/`. You can either:
+
+- Replace the files in the folder using the exact same filenames (e.g., replace `anshul.jpg` with your own photo named `anshul.jpg`).
+- Update the filenames in `content.json` to match your new uploaded files.
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+├── assets/          # Profile photos, project screenshots, and avatars
+├── components/      # Reusable React components (Navbar, ProjectCard, etc.)
+├── data/
+│   └── content.json # THE ONLY FILE YOU NEED TO EDIT FOR CONTENT
+├── App.js           # Main application logic
+└── index.js         # Entry point
+```
+
+---
+
+## 🚀 Deployment
+
+This template is optimized for Vercel.
+
+1. Push your changes to your GitHub repository.
+2. Import the project into Vercel.
+3. Vercel will automatically detect React and deploy your site to a live URL.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ by [Anshul Gora](https://anshulwork.netlify.app/)

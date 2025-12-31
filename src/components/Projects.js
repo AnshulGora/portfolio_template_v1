@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import projectsData from "../data/projects.json";
+import data from "../data/content.json";
 
 export default function Projects() {
   return (
@@ -9,7 +9,7 @@ export default function Projects() {
         <h1>My work :)</h1>
       </div>
 
-      {projectsData.map((project, index) => (
+      {data.projects.map((project, index) => (
         <ProjectCard
           key={index}
           title={project.title}

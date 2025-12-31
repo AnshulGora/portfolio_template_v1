@@ -1,6 +1,6 @@
 import React from "react";
 import ReviewCard from "./ReviewCard";
-import testimonialsData from "../data/review.json";
+import data from "../data/content.json";
 
 export default function Testimonials() {
   return (
@@ -10,7 +10,7 @@ export default function Testimonials() {
       </div>
 
       <div className="row">
-        {testimonialsData.map((testimonial, index) => (
+        {data.testimonials.map((testimonial, index) => (
           <div className="col-md-4 col-sm-4" key={index}>
             <ReviewCard
               avatar={require(`../assets/${testimonial.avatar}`)}

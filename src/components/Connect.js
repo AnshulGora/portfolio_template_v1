@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 
-import data from "../data/data.json";
+import data from "../data/content.json";
 
 export default function Connect() {
   return (
@@ -13,7 +13,7 @@ export default function Connect() {
       <div className="row">
         <div className="col-md card text-center connect-card">
           <a
-            href={`mailto:${data.email}`}
+            href={`mailto:${data.profile.email}`}
             target="blank"
             rel="noopener noreferrer"
           >
@@ -23,7 +23,7 @@ export default function Connect() {
         </div>
         <div className="col-md card text-center connect-card">
           <a
-            href={data.link_instagram}
+            href={data.profile.socials.instagram}
             target="blank"
             rel="noopener noreferrer"
           >
@@ -33,13 +33,21 @@ export default function Connect() {
           <h5 className="py-2">Instagram</h5>
         </div>
         <div className="col-md card text-center connect-card">
-          <a href={data.link_twitter} target="blank" rel="noopener noreferrer">
+          <a
+            href={data.profile.socials.twitter}
+            target="blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-x-twitter fa-3x iconf"></i>
           </a>
           <h5 className="py-2">Twitter/X</h5>
         </div>
         <div className="col-md card text-center connect-card">
-          <a href={data.link_linkedin} target="blank" rel="noopener noreferrer">
+          <a
+            href={data.profile.socials.linkedin}
+            target="blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa-brands fa-linkedin fa-3x iconf"></i>
           </a>
           <h5 className="py-2">Linked-in</h5>

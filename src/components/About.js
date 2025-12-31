@@ -1,10 +1,11 @@
 import React from "react";
-import anshul from "../assets/anshul.jpg";
+import anshul from "../assets/About Section Image.png";
 
-import data from "../data/data.json";
+import data from "../data/content.json";
 
 export default function About() {
-  const { about_text } = data;
+  const { profile } = data;
+  const { about_text } = profile;
   return (
     <div className="container-fluid aboutdiv">
       <div className="text-center pb-4">
