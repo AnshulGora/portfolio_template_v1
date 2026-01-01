@@ -4,6 +4,7 @@ import Tagline from "./components/Tagline";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Connect from "./components/Connect";
 import { Element } from "react-scroll";
@@ -23,6 +24,9 @@ function App() {
         <Testimonials />
       </Element>
       <About />
+      <Element name="experience">
+        <Experience />
+      </Element>
       <Element name="services">
         <Skills />
       </Element>

@@ -60,5 +60,51 @@
       "review": "Anshul is a great communicator and an even better designer. Highly recommended!",
       "avatar": "avatar-3.jpg"
     }
+  ],
+  "experience": [
+    {
+      "title": "Web Developer",
+      "company": "Freelance",
+      "duration": "2020 - Present",
+      "description": "Developed responsive websites and web applications using React, Node.js, and modern web technologies. Collaborated with clients to deliver user-centered designs and functional solutions."
+    },
+    {
+      "title": "Graphic Designer",
+      "company": "Self-Employed",
+      "duration": "2018 - Present",
+      "description": "Created visual content for various projects including logos, branding, and UI/UX designs. Utilized tools like Adobe Illustrator and Photoshop to produce high-quality graphics."
+    },
+    {
+      "title": "Backend Developer Intern",
+      "company": "Tech Startup",
+      "duration": "2019 - 2020",
+      "description": "Assisted in building server-side logic and database management. Gained experience in backend technologies and contributed to project development."
+    }
+  ],
+  "services": [
+    {
+      "title": "Website Development",
+      "description": "Building responsive and dynamic websites using modern web technologies like React, Node.js, and more."
+    },
+    {
+      "title": "UI/UX Designing",
+      "description": "Creating intuitive and visually appealing user interfaces for landing pages, product pages, and portfolios."
+    },
+    {
+      "title": "SEO Optimization",
+      "description": "Improving website visibility and search engine rankings through effective SEO strategies."
+    },
+    {
+      "title": "Digital Marketing",
+      "description": "Promoting brands and products through various digital channels to reach target audiences."
+    },
+    {
+      "title": "Social Media Marketing",
+      "description": "Managing social media presence and campaigns to engage users and build brand awareness."
+    },
+    {
+      "title": "Content Writing",
+      "description": "Crafting compelling and SEO-friendly content for websites, blogs, and marketing materials."
+    }
   ]
 }
