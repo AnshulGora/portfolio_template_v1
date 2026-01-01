@@ -66,19 +66,22 @@
       "title": "Web Developer",
       "company": "Freelance",
       "duration": "2020 - Present",
-      "description": "Developed responsive websites and web applications using React, Node.js, and modern web technologies. Collaborated with clients to deliver user-centered designs and functional solutions."
+      "description": "Developed responsive websites and web applications using React, Node.js, and modern web technologies. Collaborated with clients to deliver user-centered designs and functional solutions.",
+      "tags": ["React", "JavaScript", "Bootstrap", "Nodejs", "Firebase"]
     },
     {
       "title": "Graphic Designer",
       "company": "Self-Employed",
       "duration": "2018 - Present",
-      "description": "Created visual content for various projects including logos, branding, and UI/UX designs. Utilized tools like Adobe Illustrator and Photoshop to produce high-quality graphics."
+      "description": "Created visual content for various projects including logos, branding, and UI/UX designs. Utilized tools like Adobe Illustrator and Photoshop to produce high-quality graphics.",
+      "tags": ["Illustrator", "Photoshop", "UI/UX", "Branding"]
     },
     {
       "title": "Backend Developer Intern",
       "company": "Tech Startup",
       "duration": "2019 - 2020",
-      "description": "Assisted in building server-side logic and database management. Gained experience in backend technologies and contributed to project development."
+      "description": "Assisted in building server-side logic and database management. Gained experience in backend technologies and contributed to project development.",
+      "tags": ["Python", "Database", "SQL", "APIs"]
     }
   ],
   "services": [
