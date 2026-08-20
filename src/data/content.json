@@ -24,36 +24,29 @@
       "title": "Stashly",
       "content": "A minimalist suite for personal finance. Built to help you visualize the 50/30/20 rule and project wealth with zero trackers.",
       "url": "https://stashlytrack.vercel.app/",
-      "tech": "React News API Bootstrap",
-      "img": "project-news.png"
+      "tech": "ReactJS TailwindCSS Lucide-React Recharts",
+      "img": "project-stashly.webp"
     },
     {
       "title": "Tools garage",
       "content": "A free platform offering essential digital utilities. Built tools that make your daily workflow faster",
       "url": "https://toolsgarage.vercel.app/",
-      "tech": "React News API Bootstrap",
-      "img": "project-news.png"
+      "tech": "ReactJS Bootstrap API",
+      "img": "project-tools.webp"
     },
     {
       "title": "Fitness Junction",
       "content": "A practical exercise library with approachable discovery, responsive layouts, and Firebase-backed data.",
       "url": "https://fitnessjunction.netlify.app/",
-      "tech": "React Node.js Firebase",
-      "img": "project-fj.png"
+      "tech": "ReactJS Node.js Firebase",
+      "img": "project-fitness.webp"
     },
     {
-      "title": "Trippy Travels",
-      "content": "A travel discovery experience designed to make destinations and customizable packages easy to compare.",
-      "url": "https://trippytravels.netlify.app/",
-      "tech": "React UI/UX",
-      "img": "project-trippy.png"
-    },
-    {
-      "title": "Movies Hub",
-      "content": "A movie discovery app that combines API-powered search with contextual browsing for films and television.",
-      "url": "https://movieshubtime.netlify.app/",
-      "tech": "React Movies API Context API",
-      "img": "project-movies.png"
+      "title": "Habit Tracker",
+      "content": "minimalist, high-performance habit tracker built with React and Tailwind CSS.",
+      "url": "https://trackerhabit.vercel.app/",
+      "tech": "ReactJS Tailwind LucideReact",
+      "img": "project-habittracker.webp"
     }
   ],
   "testimonials": [
