@@ -1,57 +1,37 @@
-import React, { useState } from "react";
 import data from "../data/content.json";
 
 export default function Experience() {
-  const [expandedIndex, setExpandedIndex] = useState(null);
-
-  const toggleExpand = (index) => {
-    setExpandedIndex(expandedIndex === index ? null : index);
-  };
-
   return (
-    <div className="container-fluid experiencediv">
-      <div className="text-center py-4">
-        <h1>Career Highlights</h1>
+    <section className="container-fluid experiencediv">
+      <div className="experience-heading">
+        <span className="section-kicker">Selected timeline</span>
+        <h1>Experience</h1>
       </div>
       <div className="experience-list">
         {data.experience.map((exp, index) => (
-          <div key={index} className="experience-item">
-            <div
-              className="experience-header"
-              onClick={() => toggleExpand(index)}
-            >
-              <div className="experience-main">
-                <div className="experience-title-section">
-                  <h3 className="experience-title">{exp.title}</h3>
-                  <p className="experience-duration">{exp.duration}</p>
-                </div>
-                <p className="experience-company">{exp.company}</p>
-              </div>
-              <div className="expand-icon">
-                <i
-                  className={`fas fa-chevron-down ${
-                    expandedIndex === index ? "rotated" : ""
-                  }`}
-                ></i>
-              </div>
-            </div>
-            {expandedIndex === index && (
-              <div className="experience-content">
-                <p className="experience-description">{exp.description}</p>
-                {exp.tags && (
-                  <div className="experience-tags">
-                    {exp.tags.map((tag, tagIndex) => (
-                      <span key={tagIndex} className="experience-tag">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
+          <article key={index} className="experience-item">
+            <div className="experience-main">
+              <div className="experience-company-row">
+                <h2 className="experience-company-name">{exp.company}</h2>
+                {exp.status && (
+                  <span className="experience-status">
+                    <span></span>
+                    {exp.status}
+                  </span>
                 )}
               </div>
-            )}
-          </div>
+              <p className="experience-title">{exp.title}</p>
+            </div>
+            <div className="experience-details">
+              <p>{exp.duration}</p>
+              <p>{exp.location}</p>
+            </div>
+          </article>
         ))}
       </div>
-    </div>
+      <button type="button" className="experience-more">
+        Show all work experiences <i className="fa-solid fa-arrow-right"></i>
+      </button>
+    </section>
   );
 }

@@ -4,74 +4,77 @@ import { Fade } from "react-awesome-reveal";
 import data from "../data/content.json";
 
 export default function Connect() {
+  const links = [
+    {
+      label: "Email",
+      href: `mailto:${data.profile.email}`,
+      icon: "fa-solid fa-envelope-circle-check",
+    },
+    {
+      label: "Instagram",
+      href: data.profile.socials.instagram,
+      icon: "fa-brands fa-instagram",
+    },
+    {
+      label: "X / Twitter",
+      href: data.profile.socials.twitter,
+      icon: "fa-brands fa-x-twitter",
+    },
+    {
+      label: "LinkedIn",
+      href: data.profile.socials.linkedin,
+      icon: "fa-brands fa-linkedin",
+    },
+  ];
+
   return (
-    <div className="container-fluid connectdiv">
-      <div className="text-center py-4">
-        <h1>Connect with me!</h1>
+    <footer className="container-fluid connectdiv">
+      <div className="section-heading connect-heading">
+        <div>
+          <span className="section-kicker">Open to ideas</span>
+          <h1>Let&apos;s make something useful.</h1>
+        </div>
       </div>
 
-      <div className="row">
-        <div className="col-md card text-center connect-card">
-          <a
-            href={`mailto:${data.profile.email}`}
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-solid fa-envelope-circle-check iconf fa-3x"></i>
-          </a>
-          <h5 className="py-2">Mail me</h5>
-        </div>
-        <div className="col-md card text-center connect-card">
-          <a
-            href={data.profile.socials.instagram}
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-brands fa-instagram fa-3x iconf"></i>
-          </a>
+      <p className="connect-intro">
+        Have a product to shape, a frontend to refine, or a problem worth
+        untangling? Send a note and I&apos;ll get back to you.
+      </p>
 
-          <h5 className="py-2">Instagram</h5>
-        </div>
-        <div className="col-md card text-center connect-card">
-          <a
-            href={data.profile.socials.twitter}
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-brands fa-x-twitter fa-3x iconf"></i>
-          </a>
-          <h5 className="py-2">Twitter/X</h5>
-        </div>
-        <div className="col-md card text-center connect-card">
-          <a
-            href={data.profile.socials.linkedin}
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-linkedin fa-3x iconf"></i>
-          </a>
-          <h5 className="py-2">Linked-in</h5>
-        </div>
+      <div className="row connect-grid">
+        {links.map((link) => (
+          <div className="col-md-3 col-6" key={link.label}>
+            <a
+              className="card connect-card"
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Connect on ${link.label}`}
+            >
+              <i className={`${link.icon} iconf`}></i>
+              <span>{link.label}</span>
+              <i className="fa-solid fa-arrow-up-right-from-square connect-arrow"></i>
+            </a>
+          </div>
+        ))}
       </div>
 
       <Fade direction="down" delay={2}>
-        <div className="text-center">
-          <h6 className="pt-4">
-            {/* <span className="promo-box"> */}
-            <i class="fa-solid fa-wand-magic-sparkles"></i> Made with{" "}
-            <i class="fa-solid fa-heart iconred"></i> by
+        <div className="connect-footer">
+          <h6>
+            Built with <i className="fa-solid fa-heart iconred"></i> by
             <a
               href="https://anshulwork.netlify.app/"
               className="Anshul-link"
-              target="blank"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {" "}
-              Anshul Gora
+              {data.profile.name}
             </a>
-            {/* </span> */}
           </h6>
         </div>
       </Fade>
-    </div>
+    </footer>
   );
 }

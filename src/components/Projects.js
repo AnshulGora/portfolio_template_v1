@@ -13,6 +13,7 @@ export default function Projects() {
         <ProjectCard
           key={index}
           title={project.title}
+          index={index}
           content={project.content}
           url={project.url}
           img={require(`../assets/${project.img}`)}

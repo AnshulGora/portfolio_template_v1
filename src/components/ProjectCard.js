@@ -3,21 +3,24 @@ import project1 from "../assets/project-img-2.jpg";
 
 export default function ProjectCard(props) {
   return (
-    <div className="card projectcard">
-      <div className="row">
-        <div className="col-md py-2">
-          <h2 className="fw-bold">{props.title}</h2>
+    <article className="card projectcard">
+      <div className="row project-layout">
+        <div className="col-md py-2 project-copy">
+          <div className="project-heading">
+            <span className="project-index">0{props.index + 1}</span>
+            <h2 className="fw-bold">{props.title}</h2>
+          </div>
           <p>{props.content}</p>
-          <h6 className="projects-tech mt-2">{props.tech}</h6>
-          <a
-            // href={`https://${props.url}`}
-            href={props.url}
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <button type="button" className="btn btn-primary btn1 px-4">
-              <i className="fa-solid fa-up-right-from-square"></i> Project Link
-            </button>
+          <div className="projects-tech mt-2">
+            {props.tech.split(" ").map((tech) => (
+              <span key={tech}>{tech}</span>
+            ))}
+          </div>
+          <a href={props.url} target="_blank" rel="noopener noreferrer">
+            <span className="project-link">
+              View project{" "}
+              <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            </span>
           </a>
         </div>
 
@@ -29,6 +32,6 @@ export default function ProjectCard(props) {
           />
         </div>
       </div>
-    </div>
+    </article>
   );
 }

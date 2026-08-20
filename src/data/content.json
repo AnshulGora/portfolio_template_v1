@@ -1,10 +1,18 @@
 {
   "profile": {
-    "name": "Anshul Dev",
-    "tagline": "A Graphic Designer & Web Developer trying to understand the dark arts of Backend. Because who needs sleep, right?",
+    "name": "Anshul Gora",
+    "role": "Full-stack developer",
+    "descriptor": "Builder · Learner · Problem solver",
+    "tagline": "I build useful software, write to clarify what I learn, and keep looking for simpler ways to solve hard problems.",
     "email": "ianshulgora@gmail.com",
-    "cv_link": "https://example.com/cv.pdf",
-    "about_text": "Sup mate! I’m a Developer who enjoys solving complex problems, creating impactful and user-centered experiences across multiple platforms that are informed by research and data. \n\n I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me. I'm committed to creating fluent user experiences while staying fashionable. \n\n When it comes to business, first impressions matter, and good website design is the key to capitalizing on them. An excellent site is not judged solely on its looks, but on its functionality and usability as well. My experience as a programmer allows me to come up with intelligent solutions to technical challenges, while at the same time designing sleek and visually appealing websites",
+    "location": "Hyderabad, India",
+    "availability": "Open to thoughtful collaborations",
+    "cv_link": "https://anshulwork.netlify.app/",
+    "now_playing": {
+      "title": "Pal Pal",
+      "artist": "Afusic, AliSoormoMusic"
+    },
+    "about_text": "I’m a developer who enjoys turning ambiguous ideas into clear, dependable digital products. I work across the stack, with a particular interest in React interfaces, Node.js services, and the small details that make software feel considered.\n\nI care about readable code, accessible experiences, and shipping work that solves a real problem. My process usually moves from understanding the user and the constraint to building a focused first version, then refining it with feedback.\n\nOutside of client work, I experiment with new tools, document what I learn, and look for better ways to make the web faster, simpler, and more useful.",
     "socials": {
       "instagram": "https://instagram.com/ianshulgora",
       "twitter": "https://twitter.com/ianshulgora",
@@ -14,30 +22,30 @@
   "projects": [
     {
       "title": "The DailyDose",
-      "content": "The DailyDose is a news website that provides the latest news and updates from around the world. It is a one-stop destination for all your news needs.",
+      "content": "A focused news reader that turns headlines from the News API into a fast, searchable browsing experience.",
       "url": "https://thedailydose.netlify.app/",
-      "tech": "#react #newsapi #bootstrap",
+      "tech": "React News API Bootstrap",
       "img": "project-news.png"
     },
     {
       "title": "Fitness Junction",
-      "content": "Fitness Junction is Comprehensive library of exercises catering to all fitness enthusiasts. It can be used by anyone who wants to get fit and healthy.",
+      "content": "A practical exercise library with approachable discovery, responsive layouts, and Firebase-backed data.",
       "url": "https://fitnessjunction.netlify.app/",
-      "tech": "#react #nodejs #firebase",
+      "tech": "React Node.js Firebase",
       "img": "project-fj.png"
     },
     {
       "title": "Trippy Travels",
-      "content": "Trippy Travels is a travel website that provides the best travel destinations and travel packages. Most of the travel packages are customizable and can be tailored to the needs of the customer.",
+      "content": "A travel discovery experience designed to make destinations and customizable packages easy to compare.",
       "url": "https://trippytravels.netlify.app/",
-      "tech": "#react #UI/UX",
+      "tech": "React UI/UX",
       "img": "project-trippy.png"
     },
     {
       "title": "Movies Hub",
-      "content": "Movies Hub is a movie info website that provides the latest movies and TV shows related information. It is a one-stop destination for all your movie needs.",
+      "content": "A movie discovery app that combines API-powered search with contextual browsing for films and television.",
       "url": "https://movieshubtime.netlify.app/",
-      "tech": "#react #moviesapi #contextapi",
+      "tech": "React Movies API Context API",
       "img": "project-movies.png"
     }
   ],
@@ -63,51 +71,55 @@
   ],
   "experience": [
     {
-      "title": "Web Developer",
-      "company": "Freelance",
-      "duration": "2020 - Present",
-      "description": "Developed responsive websites and web applications using React, Node.js, and modern web technologies. Collaborated with clients to deliver user-centered designs and functional solutions.",
-      "tags": ["React", "JavaScript", "Bootstrap", "Nodejs", "Firebase"]
+      "title": "SDE-L1",
+      "company": "Amazon",
+      "duration": "January 2026 - Present",
+      "location": "Hyderabad, India (On-Site)",
+      "status": "Working",
+      "description": "Build and ship responsive web applications for clients and independent products, from interface architecture through deployment and iteration.",
+      "tags": ["React", "JavaScript", "Node.js", "Firebase"]
     },
     {
-      "title": "Graphic Designer",
-      "company": "Self-Employed",
-      "duration": "2018 - Present",
-      "description": "Created visual content for various projects including logos, branding, and UI/UX designs. Utilized tools like Adobe Illustrator and Photoshop to produce high-quality graphics.",
-      "tags": ["Illustrator", "Photoshop", "UI/UX", "Branding"]
+      "title": "Frontend Engineer",
+      "company": "Remote",
+      "duration": "August 2025 - December 2025",
+      "location": "United States (Remote)",
+      "description": "Shape product direction through wireframes, visual systems, and practical UI decisions that help engineering and design move together.",
+      "tags": ["React", "UI systems", "Product thinking", "Prototyping"]
     },
     {
-      "title": "Backend Developer Intern",
-      "company": "Tech Startup",
-      "duration": "2019 - 2020",
-      "description": "Assisted in building server-side logic and database management. Gained experience in backend technologies and contributed to project development.",
-      "tags": ["Python", "Database", "SQL", "APIs"]
+      "title": "Developer Intern",
+      "company": "S2 Labs",
+      "duration": "June 2025 - July 2025",
+      "location": "Jaipur, India (On-Site)",
+      "description": "Worked on server-side features, data models, and API integrations while learning how to keep backend systems predictable and maintainable.",
+      "tags": ["Python", "SQL", "APIs", "Data models"]
     }
   ],
   "services": [
     {
-      "title": "Website Development",
-      "description": "Building responsive and dynamic websites using modern web technologies like React, Node.js, and more."
+      "title": "Frontend systems",
+      "description": "Responsive, accessible interfaces built with React and a component system that stays clear as products grow."
     },
     {
-      "title": "UI/UX Designing",
-      "description": "Creating intuitive and visually appealing user interfaces for landing pages, product pages, and portfolios."
+      "title": "Backend APIs",
+      "description": "Reliable Node.js services, integrations, and data flows designed around simple, predictable contracts."
     },
     {
-      "title": "SEO Optimization",
-      "description": "Improving website visibility and search engine rankings through effective SEO strategies."
+      "title": "Product prototyping",
+      "description": "Fast, focused prototypes that make an idea tangible and create useful feedback early."
     },
     {
-      "title": "Digital Marketing",
-      "description": "Promoting brands and products through various digital channels to reach target audiences."
+      "title": "Performance and accessibility",
+      "description": "Technical foundations that make interfaces faster, more inclusive, and easier to trust."
     },
     {
-      "title": "Social Media Marketing",
-      "description": "Managing social media presence and campaigns to engage users and build brand awareness."
+      "title": "Technical writing",
+      "description": "Clear notes and documentation that turn complex ideas into something people can understand and use."
     },
     {
-      "title": "Content Writing",
-      "description": "Crafting compelling and SEO-friendly content for websites, blogs, and marketing materials."
+      "title": "Engineering direction",
+      "description": "Practical technical decisions that keep teams focused on the problem, the trade-offs, and the next useful step."
     }
   ]
 }

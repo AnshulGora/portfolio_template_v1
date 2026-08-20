@@ -2,26 +2,25 @@ import React from "react";
 
 export default function ReviewCard(props) {
   return (
-    <div className="card testimonial-card">
+    <article className="card testimonial-card">
       <div className="card-body">
-        <div className="row align-items-center">
-          <div className="col-auto">
-            <img
-              src={props.avatar}
-              className="avatar-img img-fluid rounded-circle"
-              alt="avatar-pic"
-            />
-          </div>
-          <div className="col">
-            <div className="testimonial-info">
-              <h5 className="card-title mb-0 fw-bold">{props.name}</h5>{" "}
-              {/* Remove bottom margin */}
-              <p className="card-subtitle mb-2">{props.company}</p>
-            </div>
+        <div className="testimonial-topline">
+          <span className="testimonial-index">0{props.index + 1}</span>
+          <span className="testimonial-mark">&ldquo;</span>
+        </div>
+        <p className="card-text testimonial-quote">{props.review}</p>
+        <div className="testimonial-person">
+          <img
+            src={props.avatar}
+            className="avatar-img img-fluid rounded-circle"
+            alt={`${props.name} avatar`}
+          />
+          <div className="testimonial-info">
+            <h5 className="card-title">{props.name}</h5>
+            <p className="card-subtitle">{props.company}</p>
           </div>
         </div>
-        <p className="card-text py-3">&ldquo;{props.review}&ldquo;</p>
       </div>
-    </div>
+    </article>
   );
 }

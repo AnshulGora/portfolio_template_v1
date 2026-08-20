@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <div className="container-fluid text-center navbardiv sticky-top">
+    <div className="container-fluid navbardiv sticky-top">
       <Link
         className="navbar-link"
         activeClass="active"
@@ -24,7 +24,7 @@ export default function Navbar() {
         offset={-70} // Adjust the offset if you have a fixed navbar
         duration={500}
       >
-        Projects
+        Work
       </Link>
       <Link
         className="navbar-link"
@@ -35,7 +35,7 @@ export default function Navbar() {
         offset={-70} // Adjust the offset if you have a fixed navbar
         duration={500}
       >
-        Testimonials
+        Blog
       </Link>
       <Link
         className="navbar-link"
@@ -46,7 +46,7 @@ export default function Navbar() {
         offset={-70} // Adjust the offset if you have a fixed navbar
         duration={500}
       >
-        Services
+        Resume
       </Link>
       <Link
         className="navbar-link"
@@ -57,7 +57,7 @@ export default function Navbar() {
         offset={-70} // Adjust the offset if you have a fixed navbar
         duration={500}
       >
-        Contact
+        About
       </Link>
     </div>
   );
