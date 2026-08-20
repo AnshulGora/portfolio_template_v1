@@ -10,9 +10,22 @@ import Connect from "./components/Connect";
 import { Element } from "react-scroll";
 
 function App() {
+  const [theme, setTheme] = React.useState("dark");
+
+  React.useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+  }, [theme]);
+
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App" data-theme={theme}>
+      <Navbar
+        theme={theme}
+        onToggleTheme={() =>
+          setTheme((currentTheme) =>
+            currentTheme === "dark" ? "light" : "dark",
+          )
+        }
+      />
       <Element name="home">
         <Tagline />
       </Element>

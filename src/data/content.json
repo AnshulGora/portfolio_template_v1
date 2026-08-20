@@ -2,7 +2,7 @@
   "profile": {
     "name": "Anshul Gora",
     "role": "Full-stack developer",
-    "descriptor": "Builder · Learner · Problem solver",
+    "descriptor": "Builder · Learner",
     "tagline": "I build useful software, write to clarify what I learn, and keep looking for simpler ways to solve hard problems.",
     "email": "ianshulgora@gmail.com",
     "location": "Hyderabad, India",
@@ -21,9 +21,16 @@
   },
   "projects": [
     {
-      "title": "The DailyDose",
-      "content": "A focused news reader that turns headlines from the News API into a fast, searchable browsing experience.",
-      "url": "https://thedailydose.netlify.app/",
+      "title": "Stashly",
+      "content": "A minimalist suite for personal finance. Built to help you visualize the 50/30/20 rule and project wealth with zero trackers.",
+      "url": "https://stashlytrack.vercel.app/",
+      "tech": "React News API Bootstrap",
+      "img": "project-news.png"
+    },
+    {
+      "title": "Tools garage",
+      "content": "A free platform offering essential digital utilities. Built tools that make your daily workflow faster",
+      "url": "https://toolsgarage.vercel.app/",
       "tech": "React News API Bootstrap",
       "img": "project-news.png"
     },
@@ -53,13 +60,13 @@
     {
       "name": "Aryan Consultant",
       "company": "Web Developer",
-      "review": "Got Portfolio designed by Anshul, Results are Outstanding. Professional and always delivers on time.",
+      "review": "Got Portfolio developed by Anshul, Results are Outstanding. Professional and always delivers on time.",
       "avatar": "avatar-1.jpg"
     },
     {
       "name": "Tejasva Coder",
       "company": "Educational Youtuber",
-      "review": "He is a great designer and a great person to work with. Professional and always delivers on time.",
+      "review": "He is a great Developer and a great person to work with. Professional and always delivers on time.",
       "avatar": "avatar-2.jpg"
     },
     {
@@ -71,29 +78,29 @@
   ],
   "experience": [
     {
-      "title": "SDE-L1",
-      "company": "Amazon",
-      "duration": "January 2026 - Present",
-      "location": "Hyderabad, India (On-Site)",
+      "title": "Cloud Software Engineer",
+      "company": "Tata Consultancy Services",
+      "duration": "October 2024 - Present",
+      "location": "Gurgaon, India (On-Site)",
       "status": "Working",
       "description": "Build and ship responsive web applications for clients and independent products, from interface architecture through deployment and iteration.",
       "tags": ["React", "JavaScript", "Node.js", "Firebase"]
     },
     {
-      "title": "Frontend Engineer",
-      "company": "Remote",
-      "duration": "August 2025 - December 2025",
+      "title": "Cloud Infra Engineer",
+      "company": "Deustche Bank",
+      "duration": "August 2024 - October 2024",
       "location": "United States (Remote)",
       "description": "Shape product direction through wireframes, visual systems, and practical UI decisions that help engineering and design move together.",
-      "tags": ["React", "UI systems", "Product thinking", "Prototyping"]
+      "tags": ["UI systems", "Product thinking", "Prototyping"]
     },
     {
       "title": "Developer Intern",
-      "company": "S2 Labs",
-      "duration": "June 2025 - July 2025",
+      "company": "S2 Labs, Cyntexa",
+      "duration": "March 2024 - August 2024",
       "location": "Jaipur, India (On-Site)",
       "description": "Worked on server-side features, data models, and API integrations while learning how to keep backend systems predictable and maintainable.",
-      "tags": ["Python", "SQL", "APIs", "Data models"]
+      "tags": ["Java", "SQL", "APIs", "Data models"]
     }
   ],
   "services": [

@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 
 import data from "../data/content.json";
-import profileImage from "../assets/About Section Image.png";
+import profileImage from "../assets/About Section Image.jpeg";
 
 export default function Tagline() {
   return (

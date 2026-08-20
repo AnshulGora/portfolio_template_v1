@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-export default function Navbar() {
+export default function Navbar({ theme, onToggleTheme }) {
   return (
     <div className="container-fluid navbardiv sticky-top">
       <Link
@@ -59,6 +59,15 @@ export default function Navbar() {
       >
         About
       </Link>
+      <button
+        className="theme-toggle"
+        type="button"
+        aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+        title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+        onClick={onToggleTheme}
+      >
+        <span aria-hidden="true">{theme === "dark" ? "☀" : "☾"}</span>
+      </button>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import anshul from "../assets/About Section Image.png";
+import anshul from "../assets/About Section Image.jpeg";
 
 import data from "../data/content.json";
 
