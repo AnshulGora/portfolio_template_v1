@@ -35,7 +35,7 @@ export default function Navbar({ theme, onToggleTheme }) {
         offset={-70} // Adjust the offset if you have a fixed navbar
         duration={500}
       >
-        Blog
+        Notes
       </Link>
       <Link
         className="navbar-link"
@@ -46,7 +46,7 @@ export default function Navbar({ theme, onToggleTheme }) {
         offset={-70} // Adjust the offset if you have a fixed navbar
         duration={500}
       >
-        Resume
+        Services
       </Link>
       <Link
         className="navbar-link"
@@ -57,7 +57,7 @@ export default function Navbar({ theme, onToggleTheme }) {
         offset={-70} // Adjust the offset if you have a fixed navbar
         duration={500}
       >
-        About
+        Contact
       </Link>
       <button
         className="theme-toggle"

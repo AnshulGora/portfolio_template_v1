@@ -2,6 +2,14 @@
 
 A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a "plug-and-play" solution to showcase their work, skills, and testimonials.
 
+> ⭐ If you find this template useful, please consider starring the repo to support the project.
+
+## 📸 Preview
+
+![Portfolio Template Preview](./screenshot.png)
+
+> Replace the placeholder image above with your own project screenshot and keep it saved as screenshot.png in the repository root for the preview to render correctly.
+
 ## ✨ Features
 
 - **Responsive Design**: Looks great on all devices
